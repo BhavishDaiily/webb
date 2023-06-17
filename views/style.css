@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 3px;
+    padding: 0;
+}
+
+nav{
+    font-family: 'ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 100px;
+    background-color: rgb(227, 238, 240);
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 250px;
+    padding: 0 8px;
+ 
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2.0rem;
+    color: #2657c9;
+    align-items:center ;
+}
+
+.container{
+    text-align: center;
+    color: rgb(8, 8, 8);
+   
+}
+
+.details{
+    margin-left: 2%;
+    height: 75vh;
+
+}
+
+
+.bottom{
+    position: sticky;
+    height: 70px;
+    background-color: rgb(227, 238, 240);
+    bottom: 0,0;
+    align-items: center;
+    text-align: center;
+   
+    font-weight:bolder;
+    font-size: 0.9 rem;
+    color:#042881;
+}
+
+.center {
+    display: block;
+    margin-left: 2%;
+  }
+
+  table,th,td{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    border: 1.5px solid #000;
+}

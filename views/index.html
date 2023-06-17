@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Cost Estimator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+        <li class="brand"><img src="daiily.png" alt="Daiily">|Business</li>    
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Transport Cost Estimator</h1>
+    </div>
+
+    <div class="deatils">
+    
+        <div>
+            <label for="fpin">From Pincode:</label>
+            <input type="text" size="25px" id="fpin" name="fpin">
+        <br><br>
+            <label for="tpin">To Pincode:</label>
+            <input  type="text" size="25px" id="tpin" name="tpin">
+       
+            
+        
+        <br>
+        <br>
+        <label for="AW">Actual Weight  :</label>
+        <input  type="number" id="AW" name="AW">
+        <br>
+        <br>
+        <form id="add_button">
+       <label for="VW">Volumetric Weight  :</label> 
+        <pre><label for="L"> Length  :</label><input  type="number" id="L" name="L"><label for="B"> Width  :</label><input  type="number" id="B" name="B"><label for="H"> Height  :</label><input  type="number" id="H" name="H"><label for="NOB"> No of Box  :</label><input  type="number" id="NOB" name="NOB">&nbsp;&nbsp;</pre>   
+        </form>
+        <button class="btn" onclick="add_more_field()" style="height: 25px;width: 100px;"> Add</button>
+        <br>
+        <br>
+        <label for="TVW">Total Volumetric Weight  :</label>
+        <input  type="number" id="TVW" name="TVW">
+
+        
+    </div>
+    <br>
+            <br>
+            <button class="center" id="submitForm" style="height: 25px;width: 100px;">Submit</button>
+            <br>
+      <div id="service"></div>
+    <div class="bottom">
+        <pre><h2>
+        Office Supplies Automation 
+        Save Paper Save Tree</h2>
+    </pre>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script> 
+   <script src="script.js"></script>
+</body>
+</html>
